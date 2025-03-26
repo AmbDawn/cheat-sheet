@@ -5,7 +5,7 @@
 
 * {
     color: darkslategray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "PT Serif", Georgia, 'Times New Roman', Times, serif;
 }
 
 li {
@@ -82,10 +82,20 @@ th, td {
 th {
     background-color: darkorange;
     color: white;
-    text-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
     font-size: 20px;
     border: 2px solid darkslategray;
+}
+
+/* style the rule and declaration images to fit better */
+
+#CSS-ruleset, #CSS-declaration {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    margin-left: 150px;
 }
 
 /* style the cheatsheet sections */
@@ -111,7 +121,7 @@ th {
 }
 /* change font to monospace for code snippets */
 
-.code {
+.code, .code tbody, .code tr, .code td {
     font-family: "Source Code Pro", monospace;
 }
 
@@ -139,7 +149,7 @@ th {
  }
 
 .local {
-    font-family: "Dotness", cursive;
+    font-family: "Dotness", fantasy;
  }
 
 .italic {
