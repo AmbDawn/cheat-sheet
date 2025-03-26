@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Dotness";
+    src: url('../fonts/dotness.ttf') format('truetype'), url('../fonts/dotness.woff') format('woff'), url('../fonts/dotness.woff2') format('woff2');
+}
+
+* {
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+nav li {
+    display: inline;
+    margin: 0 10px;
+    width: 100%;
+}
+
+header {
+    text-align: left;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+.banner {
+    background-image: url("../images/fire.png");
+    display: block;
+    height: 250px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+header h1 {
+    color: darkorange;
+    font-family: "Dotness", cursive;
+    font-size: 65px;
+}
+
+header h2 {
+    color: orangered;
+    font-size: 30px;
+    font-family: "Source Code Pro", monospace;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* style the tables */
+
+table {
+    border: 2px solid darkorange;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    white-space-collapse: collapse;
+    text-wrap-mode: wrap;
+}
+
+th, td {
+    border: 2px solid darkorange;
+    padding: 10px;
+}
+
+th {
+    background-color: darkorange;
+    color: white;
+    text-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid darkslategray;
+}
+
+/* style the cheatsheet sections */
+
+#overview {
+    background-color: black;
+    padding: 5px;
+}
+
+#typeface {
+    background-color: darkslategray;
+    padding: 5px;
+}
+
+#styles {
+    background-color: slategray;
+    padding: 5px;
+}
+
+#alignment {
+    background-color: gray;
+    padding: 5px;
+}
+/* change font to monospace for code snippets */
+
+.code {
+    font-family: "Source Code Pro", monospace;
+}
+
+/* insert image avatar for list bullets */
+.avatar {
+    background-image: url(../images/pexels-pixabay-54627.png);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 5px;
+ }
+
+/* adjust fonts to match the cheatsheet named style */
+
+.websafe {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+ }
+
+.online {
+    font-family: "Source Code Pro", monospace;
+ }
+
+.local {
+    font-family: "Dotness", cursive;
+ }
+
+.italic {
+    font-style: italic;
+ }
+
+.bold {
+    font-weight: bold;
+ }
+
+.underline {
+    text-decoration: underline;
+ }
+ 
+.uppercase {
+    text-transform: uppercase;
+ }
+
+.large-size {
+    font-size: 40px;
+ } 
+
+.color {
+    color: magenta;
+} 
+
+.background-color {
+    background-color: cyan;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+.height {
+    line-height: 50px;
+}
+
+.wspace {
+    word-spacing: 20px;
+}
+
+.lspace {
+    letter-spacing: 10px;
+}
+
+/* footer styles */
+#footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer p {
+    font-size: 20px;
+    color: darkorange;
+    font-family: "Source Code Pro", monospace;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px darkslategray;
+}

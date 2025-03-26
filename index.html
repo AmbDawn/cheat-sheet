@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font Cheat Sheet</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->   
+    <nav>
+        <ul class="nav">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#typeface">Families</a></li>
+            <li><a href="#styles">Styles</a></li>
+            <li><a href="#alignment">Alignment</a></li>
+        </ul>
+    </nav>
+    <!-- Banner -->
+    <header class="banner">
+        <h1>CSS Font Cheat Sheet</h1>
+        <h2>Spark Your Memory</h2>
+    </header>
+    <!-- Overview Section -->
+    <section>
+        <h3 id="overview">Overview</h3>
+        <p>It is extremely important to remember how to style fonts for any website project. These changes will make or break the feels and professionalism of any site.</p>
+        <p>The main points to spark memory for are:</p>
+        <ul class="nav">
+            <li><div class="avatar"></div><a href="#typeface">Families</a></li>
+            <li><div class="avatar"></div><a href="#styles">Styles</a></li>
+            <li><div class="avatar"></div><a href="#alignment">Alignment</a></li>
+        </ul>
+    </section>
+    <!-- Typeface Section -->
+    <section>
+        <h3 id="typeface">Families</h3>
+        <p>When a font or typeface has been selected, there are 3 options to display the fonts correctly on any websites:</p>
+        <ul>
+            <li class="websafe"><div class="avatar"></div>Use web-safe fonts</li>
+            <li class="online"><div class="avatar"></div>Link to an online font-source api</li>
+            <li class="local"><div class="avatar"></div>Use local fonts</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Import Options</th>
+                <th class="code">Example Code</th>
+            </tr>
+            <tr>
+                <td>Web-Safe Fonts</td>
+                <td class="code">font-family: Arial, sans-serif;</td>
+            </tr>
+            <tr>
+                <td>Link to Online Font</td>
+                <td class="code">&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"&gt;</td>
+            </tr>
+            <tr>
+                <td>Local Fonts</td>
+                <td class="code">@font-face {<br>font-family: "Dotness";<br>src: url("/resources/fonts/dotness.ttf");<br>}</td>
+            </tr>
+        </table>
+    </section>
+    <!-- Styles Section -->
+    <section>
+        <h3 id="styles">Styles</h3>
+        <p>There are 7 main text styles that can be applied to any font-family:</p>
+        <ul>
+            <li class="italic"><div class="avatar"></div>Font-Style</li>
+            <li class="bold"><div class="avatar"></div>Font-Weight</li>
+            <li class="large-size"><div class="avatar"></div>Font-Size</li>
+            <li class="uppercase"><div class="avatar"></div>Text-Transform</li>
+            <li class="underline"><div class="avatar"></div>Text-Decoration</li>
+            <li class="color"><div class="avatar"></div>Color</li>
+            <li class="background-color"><div class="avatar"></div>Background-Color</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Styles</th>
+                <th class="code">Example Code</th>
+            </tr>
+            <tr>
+                <td>Font-Style</td>
+                <td class="code">font-style: italic, normal, oblique;</td>
+            </tr>
+            <tr>
+                <td>Font-Weight</td>
+                <td class="code">font-weight: normal, bold, bolder, lighter, 100-900;</td>
+            </tr>
+            <tr>
+                <td>Font-Size</td>
+                <td class="code">font-size: 16px, 1em, 100%;</td>
+            </tr>
+            <tr>
+                <td>Text-Transform</td>
+                <td class="code">text-transform: none, uppercase, lowercase, capitalize;</td>
+            </tr>
+            <tr>
+                <td>Text-Decoration</td>
+                <td class="code">text-decoration: none, underline, overline, line-through, blink;</td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td class="code">color: #000000, rgb(0,0,0), rgba(0,0,0,1), hsl(0,0,0), hsla(0,0,0,1);</td>
+            </tr>
+            <tr>
+                <td>Background-Color</td>
+                <td class="code">background-color: #ffffff, rgb(255,255,255), rgba(255,255,255,1), hsl(0,0,100), hsla(0,0,100,1);</td>
+            </tr>
+        </table>
+    </section>
+    <!-- Alignment Section -->
+    <section>
+        <h3 id="alignment">Alignment</h3>
+        <p>There are 4 main text alignment options that can be applied to any font-family:</p>
+        <ul>
+            <li class="center"><div class="avatar"></div>Text - Align</li>
+            <li class="top"><div class="avatar"></div>Vertical - Align</li>
+            <li class="height"><div class="avatar"></div>Line - Height</li>
+            <li class="lspace"><div class="avatar"></div>Letter - Spacing</li>
+            <li class="wspace"><div class="avatar"></div>Word - Spacing</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Alignment</th>
+                <th class="code">Code</th>
+            </tr>
+            <tr>
+                <td>Text-Align</td>
+                <td class="code">text-align: left, right, center, justify; (to parent element)</td>
+            </tr>
+            <tr>
+                <td>Vertical-Align</td>
+                <td class="code">vertical-align: baseline, top, middle, bottom; (to parent element)</td>
+            </tr>
+            <tr>
+                <td>Line-Height</td>
+                <td class="code">line-height: 1.5, 150%, 24px;</td>
+            </tr>
+            <tr>
+                <td>Letter-Spacing</td>
+                <td class="code">letter-spacing: 1px, 0.1em;</td>
+            </tr>
+            <tr>
+                <td>Word-Spacing</td>
+                <td class="code">word-spacing: 1px, 0.1em;</td>
+        </table>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <p>Created by: Amber Nelson, 2025</p>
+    </footer>
+</body>
+</html>
